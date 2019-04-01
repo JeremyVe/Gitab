@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Github Tabify",
+  "version": "0.1.0",
+  "description": "github extension to provide better spacing",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://github.com/*"]
+  }],
+  "icons": {
+    "16": "github.png",
+    "48": "github.png",
+    "128": "github.png"
+  }
+}
